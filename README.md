@@ -11,7 +11,11 @@ Our project primarily uses React for the frontend, Express and Node.js for the b
 
 ## Database Design
 Structured according to the principles of the third normal form (3NF). This design paradigm ensures optimal data organization, minimizes redundancy, and enhances scalability.
+**ER DIAGRAM**
 ![FLOWCHART](https://github.com/Madhav-Murali-NITC/E-Commerce-Website/blob/main/er-ecommerce.jpeg)
+
+
+**USER-FLOW DIAGRAM**
 ![FLOWCHART](https://github.com/Madhav-Murali-NITC/E-Commerce-Website/blob/main/user-flow-ecommerce.jfif)
 
 
