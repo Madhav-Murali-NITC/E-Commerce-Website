@@ -7,22 +7,18 @@ In the rapidly evolving landscape of online commerce, businesses face the challe
 To address these challenges, we have developed a comprehensive e-commerce platform leveraging modern web technologies and robust database design principles. Our solution focuses on delivering a user-friendly interface, efficient data management, and stringent security measures.
 
 ## Architecture Overview
-Our platform is built upon a foundation of industry-standard technologies, prominently featuring React for the frontend, Express and Node.js for the backend, MySQL for database management, and standard web technologies (HTML, CSS, JavaScript) for user interface design and interactivity.
+Our project primarily uses React for the frontend, Express and Node.js for the backend, MySQL for database management, and standard web technologies (HTML, CSS, JavaScript) for user interface design and interactivity.
 
 ## Database Design
-Central to the efficacy of our platform is the database architecture, meticulously structured according to the principles of the third normal form (3NF). This design paradigm ensures optimal data organization, minimizes redundancy, and enhances scalability. By adhering to 3NF, our database system maintains data integrity, facilitates efficient querying, and lays a robust foundation for future expansion.
 
-## Backend Implementation
-The backend functionality is orchestrated through Express.js, a minimalist web application framework for Node.js. Leveraging Express, we have implemented a suite of RESTful APIs to facilitate seamless communication between the frontend and backend components. These APIs handle critical functionalities such as user authentication, product management, and cart operations.
 
-## Frontend Development
-The frontend interface, designed with user-centricity in mind, is crafted using React – a declarative and component-based JavaScript library. Through React, we have engineered an intuitive and visually appealing user interface, fostering a delightful browsing and shopping experience for our users. HTML and CSS are employed extensively to structure and style the various components, ensuring accessibility and responsiveness across devices.
 
 ## Key Features
 Our e-commerce platform boasts several key features designed to enhance user engagement and administrative efficiency:
 - **Cart System**: A robust cart management system enabling users to add, remove, and modify items in their shopping carts seamlessly.
 - **Product Management**: Comprehensive tools for administrators to effortlessly add, update, and remove products from the platform, ensuring a dynamic and up-to-date catalog.
 - **Role-based Authentication**: A sophisticated authentication mechanism that distinguishes between user roles (e.g., regular user, admin), ensuring secure access control and privilege management.
+- **Order Management System**: A personalized platform enabling individual users to seamlessly checkout items within their cart, while offering diverse payment methods for a tailored experience.
 
 ## Backend Routes Overview
 - **Authentication Routes (auth.js):**
@@ -41,10 +37,6 @@ Our e-commerce platform boasts several key features designed to enhance user eng
   - *Get Product by Name Route (/products/name/:name)*: Retrieves product details based on the provided name.
   - *Admin Routes (/products/admin)*: Provides CRUD operations for products with admin privileges.
 
-## Database Connection
-- Establishes a MySQL database connection using the mysql package.
-- Handles errors during the connection process.
-- Automatically closes the connection when the application exits.
 
 ## Overall Design
 - The backend follows a modular design, with each route grouped into separate files (auth.js, cart.js, orders.js, products.js).
@@ -54,5 +46,3 @@ Our e-commerce platform boasts several key features designed to enhance user eng
 - Employs MySQL queries to interact with the database.
 - Provides RESTful endpoints for user authentication, cart management, order processing, and product management.
 
-## Frontend Implementation
-Led the end-to-end creation of a dynamic e-commerce platform using React, HTML, and CSS, emphasizing a seamless user experience. Leveraging React's component-based architecture, crafted intuitive interfaces, interactive product displays, and responsive layouts. Employed HTML and CSS for consistent styling and layout across the platform. Prioritized user-centric design principles for intuitive navigation and efficient information presentation.
