@@ -10,7 +10,9 @@ To address these challenges, we have developed a comprehensive e-commerce platfo
 Our project primarily uses React for the frontend, Express and Node.js for the backend, MySQL for database management, and standard web technologies (HTML, CSS, JavaScript) for user interface design and interactivity.
 
 ## Database Design
+Structured according to the principles of the third normal form (3NF). This design paradigm ensures optimal data organization, minimizes redundancy, and enhances scalability.
 ![FLOWCHART](https://github.com/Madhav-Murali-NITC/E-Commerce-Website/blob/main/er-ecommerce.jpeg)
+![FLOWCHART](https://github.com/Madhav-Murali-NITC/E-Commerce-Website/blob/main/user-flow-ecommerce.jfif)
 
 
 ## Key Features
